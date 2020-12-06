@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>An interactive web page</title>
     <link rel="stylesheet" href="./assets/stylesheets/style.css">
 </head>
@@ -14,30 +12,19 @@
         <h2>
             1. Color changer
         </h2>
-        <button id="gray-button">
-            Gray
-        </button>
-        <button id="blue-button">
-            Blue
-        </button>
-        
+        <button id="gray-button">Gray</button>
+        <button id="blue-button">Blue</button>
         <button id="pink-button">Pink</button>
-
-        <div id="color-box" class="gray">
-        </div>
+        <div id="color-box" class="gray"></div>
     </section>
     <hr>
     <section>
         <h2>
             2. Counter
         </h2>
-        <button id="counter-button">
-            This fabulous button
-        </button>
+        <button id="counter-button">This fabulous button</button>
         has been clicked
-        <span id="countspan">
-            0
-        </span>
+        <span id="countspan">0</span>
         times.
     </section>
     <hr>
@@ -48,8 +35,8 @@
         <button id="even-or-odd-button">
             Is the count even or odd?
         </button>
+        <div id="result"></div>
     </section>
-
-  <script src="./assets/javascript/clickhandler.js"></script>  
+    <script src="./assets/javascript/clickhandler.js"></script>
 </body>
 </html>
